@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aashish Badal | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" data-aos="fade-down">
+        <div class="logo">AB</div>
+        <button class="mode-toggle">🌙</button>
+        <div class="hamburger">☰</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero" data-aos="fade-up">
+        <div id="particles-js"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Hi, I am Aashish Badal</h1>
+                <p class="typing-text"></p>
+            </div>
+            <div class="hero-image">
+                <img src="hero.jpg" alt="Aashish Badal" class="profile-pic">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about" data-aos="fade-right">
+        <div class="about-container">
+            <div class="about-card">
+                <h2>About Me</h2>
+                <p>My web development journey is a thrilling ride through code, creativity, and endless possibilities. From crafting pixel-perfect designs to building seamless user experiences, I’m fueled by a passion for turning ideas into interactive realities.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services" data-aos="zoom-in">
+        <h2>Services</h2>
+        <div class="services-staggered">
+            <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                <h3>Frontend Development</h3>
+                <p>Building dynamic, user-friendly interfaces with modern technologies.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                <h3>UI/UX Design</h3>
+                <p>Crafting intuitive and visually appealing designs for optimal user experiences.</p>
+            </div>
+            <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                <h3>Responsive Web Design</h3>
+                <p>Ensuring seamless functionality and aesthetics across all devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section (Gallery with Next Button and Dots) -->
+    <section class="projects" id="projects" data-aos="fade-left">
+        <h2>Projects</h2>
+        <div class="projects-gallery">
+            <!-- <div class="gallery-item active" data-aos="fade-up">
+                <div class="gallery-wrapper">
+                    <img src="p.png" alt="Portfolio Site" class="gallery-image">
+                    <div class="gallery-content">
+                        <h3>Portfolio Site</h3>
+                        <p>A sleek personal site showcasing my skills.</p>
+                        <div class="gallery-buttons">
+                            <button onclick="window.open('https://github.com')">GitHub</button>
+                            <button onclick="window.open('https://example.com')">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <button class="next-btn">></button>
+            </div> -->
+            <div class="gallery-item">
+                <div class="gallery-wrapper">
+                    <img src="p.png" alt="E-commerce UI" class="gallery-image">
+                    <div class="gallery-content">
+                        <h3>E-commerce UI</h3>
+                        <p>A modern shopping interface design made using React JS.Include features like Search Functionality, Category filtering, Cart functionality and Sorting functionality.</p>
+                        <div class="gallery-buttons">
+                            <button onclick="window.open('https://github.com/AashishBadal/ecommerce')">GitHub</button>
+                            <button onclick="window.open('https://ecommerce-7yo8.onrender.com/')">Live Demo</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- <button class="next-btn">></button> -->
+            </div>
+        </div>
+        <div class="gallery-dots">
+            <span class="dot active"></span>
+            <!-- <span class="dot"></span> -->
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience" data-aos="fade-up">
+        <h2>Experience</h2>
+        <div class="experience-card">
+            <p>Currently, I have no formal experience, but I’m diving deep into full-stack development with enthusiasm. I’m mastering the art of coding, and my future plans include exploring AI and machine learning to create intelligent, cutting-edge solutions.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact" data-aos="fade-up">
+        <h2>Contact Me</h2>
+        <div class="contact-container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/aashish-badal-86505530b/" class="social-icon">
+                    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/linkedin.png" alt="LinkedIn" class="social-logo">
+                </a>
+                <a href="https://github.com/AashishBadal" class="social-icon">
+                    <img src="https://img.icons8.com/ios-filled/50/FFFFFF/github.png" alt="GitHub" class="social-logo">
+                </a>
+            </div>
+            <a href="https://mail.google.com/mail/u/1/#inbox?compose=CllgCJfscpJPHmXqhmhXkpsdDVVzzZFLpXFcHCnbfZWNhcwtGSpNfGDzCMrmLSvhkmNJdLfwnvB" class="gmail">aashishbadal4@gmail.com</a>
+        </div>
+    </section>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+</body>
+</html>
