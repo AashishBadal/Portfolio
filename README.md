@@ -1,2 +1,1 @@
-# Portfolio
-my portfolio wesbite using html and css
+A modern, responsive portfolio website made using HTML,CSS and JS.
